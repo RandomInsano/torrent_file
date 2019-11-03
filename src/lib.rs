@@ -33,7 +33,7 @@ pub struct Info {
     name: String,
     pieces: ByteBuf,
     #[serde(rename="piece length")]
-    piece_length: i64,
+    piece_length: u64,
     md5sum: Option<String>,
     length: Option<i64>,
     files: Option<Vec<FilePath>>,
