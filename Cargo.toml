@@ -1,0 +1,17 @@
+[package]
+name = "torrent_file"
+version = "0.1.0"
+authors = ["Edwin Amsler <edwinguy@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_bencode = "^0.2.0"
+serde = "^1.0.0"
+serde_derive = "^1.0.0"
+serde_bytes = "0.11.2"
+url = { version = "2.1.0", features = ["serde"] }
+
+[dev-dependencies]
+clap = "2.33"
